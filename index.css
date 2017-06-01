@@ -420,6 +420,12 @@
 	.top .nentrang .navbar-nav .nav-item{
 	margin-top: 0%;
 	}
+	.nentrang .navbar-toggler:hover{
+		color:#C59D5F;
+	}
+	.navbar-toggler:focus{
+		outline:none;
+	}
 
 }input:focus {
     outline:none;
