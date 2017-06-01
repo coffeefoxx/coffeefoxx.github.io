@@ -100,89 +100,77 @@
     max-width: 50px;
     margin: 15px auto 30px;
 }
-.welcome{
-	margin-bottom: 5%;
+
+.menu .drink{
+	padding-bottom: 5%;
 }
-.info{
-	margin-top: 3%;
-}
-.info .image{
-	width: 150px;
-	height: 150px;
-	margin: auto;
-	border-radius: 100%;
-	overflow: hidden;
-}
-.info .image img{
-	max-width: 100%;
-}
-.info h4{
+.menu .td{
 	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	color: #232323;
-	font-weight: 500;
-	margin-top: 6%;
-}
-.info h4:after{
-	content: ' ';
-    display: block;
-    width: 33px;
-    height: 5px;
-    margin: 20px auto;
-    background: url(images/index/vector.png);
-}
-.info p{
-	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
 	color: #9C9C9C;
-	font-weight: normal;
-	margin-top: 6%;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 500;
+
 }
-.book{
-	width: 100%;
-	height: 700px;
-	background: url(images/index/banner2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	min-height: 500px;
-}
-.book .tittle hr{
-	border-top:1px solid #b5b5b5;
-}
-.book input {
-	font-family: 'Raleway', sans-serif;
-	font-size: 12px;
-	width: 100%;
-	height: 60px;
-	border: 0px;
-	border-bottom: 1px solid #B5B5B5;
-	background: transparent;
-	padding: 20px 15px 10px 5px;
-	color: white;
-	transition:0.4s;
-}
-.book input:hover{
-	border: 0px;
-	border-bottom: 1px solid #C59D5F;
-}
-.book i.fa{
-	color: white;
-	font-size: 12px;
-	margin-top: -6%;
+.menu .td .dropdown{
 	float: right;
 }
-.book .form{
-	margin-bottom: 2%;
+/* Dropdown Button */
+.menu .td .dropbtn {
+	text-transform: uppercase;
+	background: none;
+    color: #232323;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
 }
-.book .btn-outline-secondary{
-	letter-spacing: 0px;
-	margin-top: 70px;
+
+/* The container <div> - needed to position the dropdown content */
+.menu .td .dropdown {
+    position: relative;
+    display: inline-block;
 }
-.menu {
-	padding-bottom:6%; 
+
+/* Dropdown Content (Hidden by Default) */
+.menu .td .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    z-index: 10;
+    right: 0;
+    transition:0.4s;
 }
+
+/* Links inside the dropdown */
+.menu .td .dropdown-content a {
+	text-transform: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition:0.2s;
+}
+
+/* Change color of dropdown links on hover */
+.menu .td .dropdown-content a:hover {
+	background-color: #C59D5F;
+	color: white;
+}
+
+/* Show the dropdown menu on hover */
+.menu .td .dropdown:hover .dropdown-content {
+    display: block;
+}
+.menu .td hr{
+	padding-bottom: 3%;
+}
+
+
 .menu .btn-outline-secondary{
 	border-color: #C59D5F;
 	color: #C59D5F;
@@ -264,39 +252,6 @@
 }
 .menu .one-menu:hover .info .btn-outline-secondary{
 	margin-right: 3%;
-}
-.feedback{
-	background:url(images/index/bgwave1.png) center center;
-	padding-bottom: 10%;
-}
-.feedback .carousel-control{
-	opacity: 0;
-	visibility: hidden;
-}
-.feedback .carousel p{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	color: #B5B5B5;
-	font-weight: 300;
-}
-.feedback .carousel h5{
-	font-family: 'Raleway', sans-serif;
-	font-size: 12px;
-	color: #232323;
-	font-weight: 500;
-}
-.feedback .carousel-indicators{
-	margin-bottom: -6%;
-}
-.feedback .carousel-indicators li{
-	border: 1px solid #C59D5F;
-	width: 8px;
-	height: 8px;
-}
-.feedback .carousel-indicators .active{
-	background-color: #C59D5F;
-	width: 10px;
-	height: 10px;
 }
 .footer{
 	background-color: #3A3A3A;
