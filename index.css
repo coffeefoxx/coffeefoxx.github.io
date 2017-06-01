@@ -76,9 +76,6 @@
 	margin-top: 5%;
 
 }
-.top .menutren .navbar-nav .nav-item{
-	padding-left:0px;
-}
 .tittle h1{
 	color: #C59D5F;
     font-family: 'Roboto', sans-serif;
@@ -403,6 +400,9 @@
 		background: none;
 		border-color: white;
 		transition:0.4s;
+	}
+	.top .menutren .navbar-nav .nav-item{
+		padding-left:0px;
 	}
 	.nentrang .navbar-toggler{
 		border-color: #C59D5F;
