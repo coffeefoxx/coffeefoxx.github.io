@@ -426,6 +426,9 @@
 	.navbar-toggler:focus{
 		outline:none;
 	}
+	.top .menutren .navbar-nav .nav-item{
+		padding-left: -0px;
+	}
 
 }input:focus {
     outline:none;
