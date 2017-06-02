@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
  	<script type="text/javascript" src="index.js"></script>
+ 	<script type="text/javascript" src="shop.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
  	<link rel="stylesheet" href="shop.css">
@@ -49,18 +50,19 @@
 		</nav> <!-- hết menu trên -->
 		<div class="banner text-xs-center">
 			<div class="container-fluid">
-				<div class="col-xs-12 col-sm-6 push-sm-3 welcome text-xs-center">
+				<div class="col-xs-12 welcome text-xs-center">
 					<img src="images/index/wel.png" alt="">
 					<p>THE COFFEE FOX</p>
 					<div class="star">
 						<img src="images/index/star.png" alt="">
 					</div>
-					<select>
-					  <option value="volvo">Volvo</option>
-					  <option value="saab">Saab</option>
-					  <option value="mercedes">Mercedes</option>
-					  <option value="audi">Audi</option>
-					</select>
+					<div class="dropdown">
+					  <button class="dropbtn">choose the city <i class="fa fa-chevron-down"></i></button>
+					  <div class="dropdown-content">
+					    <a href=".hanoi">Ha Noi</a>
+					    <a href=".hcm">Ho Chi Minh</a>
+					  </div>
+					</div> <!-- het drop dowm -->
 				</div>
 			</div>
 		</div> <!-- het banner -->

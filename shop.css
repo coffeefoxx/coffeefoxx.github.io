@@ -38,7 +38,7 @@
 	color: #C59D5F;
 }
 .top .banner img{
-	padding-top: 30%;
+	padding-top: 15%;
 }
 .top .banner p{
 	font-family: 'Open Sans', sans-serif;
@@ -76,13 +76,67 @@
 .top .nentrang .navbar-nav .nav-item{
 	margin-top: 5%;
 }
+.top .banner .dropdown{
+	padding-top: 3%;
+}
+/* Dropdown Button */
+.top .banner .dropbtn {
+	text-transform: uppercase;
+	background: white;
+    color: #232323;
+    padding: 16px 30px;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.top .banner .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.top .banner .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    z-index: 10;
+    right: 0;
+    transition:0.4s;
+}
+
+/* Links inside the dropdown */
+.top .banner .dropdown-content a {
+	text-transform: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition:0.2s;
+}
+
+/* Change color of dropdown links on hover */
+.top .banner .dropdown-content a:hover {
+	background-color: #C59D5F;
+	color: white;
+}
+
+/* Show the dropdown menu on hover */
+.top .banner .dropdown:hover .dropdown-content {
+    display: block;
+}
 .shop{
 	padding-bottom: 5%;
-	padding-top: 5%;
 	font-family: 'Raleway', sans-serif;
 }
-.shop .hanoi{
-	padding-bottom: 5%;
+.shop .hanoi, .hcm{
+	padding-top: 14%;
 }
 .shop .td{
 	font-family: 'Raleway', sans-serif;
@@ -240,6 +294,9 @@
 	.nentrang .navbar-toggler{
 		border-color: #C59D5F;
 		color: #C59D5F;
+	}
+	.shop .hanoi, .hcm{
+		padding-top:30%;
 	}
 	.shop .td .right{
 		float: none;
