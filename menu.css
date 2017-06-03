@@ -385,9 +385,8 @@
 	.footer .carousel-indicators{
 	margin-bottom: -3%;
 	}
-	.feedback .carousel-indicators{
-	margin-bottom: -10%;
-	}
+	.menu{
+		padding-top: 25%;}
 	.top .nentrang .navbar-nav .nav-item{
 	margin-top: 0%;
 	}
