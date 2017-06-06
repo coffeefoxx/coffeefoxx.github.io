@@ -225,11 +225,11 @@
 }
 
 .menu .one-menu .bg{
-	background: rgba(0, 0, 0, 0.4);
+	background: radial-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.73) 100%);
 	z-index: 2;
 }
 .menu .one-menu:hover .bg{
-	top:-102%;
+	transform:scale(0) rotate(360deg);
 }
 
 .menu .one-menu .info {
