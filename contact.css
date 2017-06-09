@@ -12,7 +12,7 @@
 .top {
 	width: 100%;
 	height: 750px;
-	background: url(images/book/banner.jpg) center center;
+	background: url(images/contact/banner.jpeg) center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -42,10 +42,9 @@
 }
 .top .banner p{
 	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
+	font-size: 15px;
     color: white;
-    letter-spacing: 14px;
-    margin-top: 0%;
+    letter-spacing: 5px;
 }
 .top .banner .btn{
 	border-radius: 2px;
@@ -56,7 +55,7 @@
     letter-spacing: 7px;
     color: white;
     padding: 13px 25px;
-    margin-top: 7%;
+    margin-top: 5%;
     transition:0.4s;
 }
  .btn-outline-secondary:hover{
@@ -104,50 +103,14 @@
     max-width: 50px;
     margin: 15px auto 30px;
 }
-
-.info{
-	margin-top: 3%;
-}
-.info .image{
-	width: 150px;
-	height: 150px;
-	margin: auto;
-	border-radius: 100%;
-	overflow: hidden;
-}
-.info .image img{
-	max-width: 100%;
-}
-.info h4{
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	color: #232323;
-	font-weight: 500;
-	margin-top: 6%;
-}
-.info h4:after{
-	content: ' ';
-    display: block;
-    width: 33px;
-    height: 5px;
-    margin: 20px auto;
-    background: url(images/index/vector.png);
-}
-.info p{
-	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-	color: #9C9C9C;
-	font-weight: normal;
-	margin-top: 6%;
-}
-.book{
+.contact{
 	background:url(images/index/bgwave1.png) center center;
 	width: 100%;
 	height: 100%;
-	padding-bottom: 10%;
 	padding-top: 10%;
+	padding-bottom: 10%;
 }
-.book .card{
+.contact .card{
 	border:0px;
 	border-radius:0px;
 	border-bottom-right-radius: 2px;
@@ -157,10 +120,28 @@
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);	
 
 }
-.book .tittle hr{
-	border-top:1px solid #b5b5b5;
+.contact .info{
+	padding-bottom: 5%;
 }
-.book input {
+.contact .info i.fa{
+	font-size: 40px;
+	color: #C59D5F;
+	padding-bottom: 5%;
+}
+.contact .info h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #232323;
+}
+.contact .info p{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+	font-size: 14px;
+	color: #9C9C9C;
+}
+.contact input {
 	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	width: 100%;
@@ -172,32 +153,68 @@
 	color: #232323;
 	transition:0.4s;
 }
-.book input:hover{
+.contact input:hover{
 	border: 0px;
 	border-bottom: 1px solid #C59D5F;
 }
-.book input:focus{
+.contact input:focus{
 	border: 0px;
 	border-bottom: 1px solid #C59D5F;
 }
-.book i.fa{
+.contact .form i.fa{
+	position: absolute;
+	z-index: 2;
 	color: #232323;
 	font-size: 12px;
-	margin-top: -6%;
+	top:20px;
+	right: 25px;
 	float: right;
 }
-.book .form{
+.contact .form{
 	margin-bottom: 2%;
+	position: relative;
 }
-.book .btn-outline-secondary{
+.contact textarea{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	width: 100%;
+	outline: none;
+	border:0px;
+	border-bottom: 1px solid #B5B5B5;
+	padding: 20px 15px 10px 5px;
+	color: #232323;
+	transition:0.4s;
+	margin-top: 1%;
+}
+.contact textarea:hover{
+	border: 0px;
+	border-bottom: 1px solid #C59D5F;
+}
+.contact textarea:focus{
+	border: 0px;
+	border-bottom: 1px solid #C59D5F;
+}
+.contact .btn-outline-secondary{
 	border-color: #C59D5F;
-	color: #C59D5F;
-	letter-spacing: 2px;
-	margin-top: 70px;
+    letter-spacing: 5px;
+    color: #C59D5F;
 }
-.book .btn-outline-secondary:hover{
-	color:white;
-
+.contact .btn-outline-secondary:hover{
+	border-color: #C59D5F;
+	background: #C59D5F;
+    color:white;
+}
+.contact .btn-outline-secondary:focus{
+	border-color: #C59D5F;
+	background: #C59D5F;
+    color:white;
+}
+.location-map iframe{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    border: 0px !important;
+    padding: 0;
 }
 .footer{
 	background-color: #3A3A3A;
@@ -289,13 +306,14 @@
 		background:#333333;
 	}
 	.top .banner  img{
-		width:70%;
-		height: 70%;
-		padding-top: 30%;
+		width: 90%;
+		height: 90%;
+		padding-top: 35%;
 	}
 	.top .banner p{
 		font-size: 11px;
 		letter-spacing: 10px;
+		margin-top: -5%;
 	}
 	.navbar-toggleable-xs .navbar-nav{
 		line-height: 30px;
@@ -336,8 +354,8 @@
 	.navbar-toggler:focus{
 		outline:none;
 	}
-	.book{
-		padding-top: 20%;
+	.location-map iframe{
+		height: 300px;
 	}
 	.btn-outline-secondary{
 		font-size: 12px;
