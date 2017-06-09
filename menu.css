@@ -37,11 +37,11 @@
 	color: #C59D5F;
 }
 .top .banner img{
-	padding-top: 15%;
+	padding-top: 10%;
 }
 .top .banner p{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
+	font-size: 15px;
     color: white;
     letter-spacing: 15px;
     margin-top: -2%;
@@ -55,7 +55,7 @@
     letter-spacing: 7px;
     color: white;
     padding: 13px 25px;
-    margin-top: 10%;
+    margin-top: 7%;
     transition:0.4s;
 }
  .btn-outline-secondary:hover{
@@ -239,6 +239,7 @@
 .menu .one-menu .info p{
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    color: #9C9C9C;
     font-weight: 500;
     margin-top: 0%;
     margin-left: 3%;
