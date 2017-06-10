@@ -4,7 +4,7 @@
  	 
 // ko tinh vi tri thi cung ko sao, dung luon 750 
 
-
+	new WOW().init();
  	$(window).scroll(function(event) { // khi cuon chuot thi goi ham 
 // $('body').scrollTop() --> tinh ra vi tri hien tai cua man hinh
  		 if($('body').scrollTop() > 150) {  // so sanh vi tri hien tai voi welcome
