@@ -259,6 +259,24 @@
 .menu .one-menu:hover .info .btn-outline-secondary{
 	margin-right: 3%;
 }
+.menu .button{
+	text-align: center;
+		
+}
+.menu .button .btn-group{
+	margin-top: 5%;	
+	float: none;	
+}
+.menu .btn-secondary{
+	color: #C59D5F;
+	border-color: #C59D5F; 
+	transition :0.4s;
+}
+.menu .btn-secondary:hover{
+	color: white;
+	background:#C59D5F;
+	border-color: #C59D5F; 
+}
 
 .footer{
 	background-color: #3A3A3A;
@@ -386,6 +404,12 @@
 	.menu{
 		padding-top: 20%;
 	}
+	.menu .button .btn-group{
+		margin-bottom: 18%;
+	}
+	.menu .btn{
+		font-size: 13px;
+	}
 	.footer .carousel-indicators{
 	margin-bottom: -3%;
 	}
@@ -394,6 +418,11 @@
 	}
 	.top .nentrang .navbar-nav .nav-item{
 	margin-top: 0%;
+	}
+	.navbar-toggleable-xs .navbar-brand{
+		float: right;
+		margin-top: -15%;
+		margin-right: -10px;
 	}
 	.nentrang .navbar-toggler:hover{
 		color:#C59D5F;

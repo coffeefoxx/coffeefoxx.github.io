@@ -354,6 +354,11 @@
 	.navbar-toggler:focus{
 		outline:none;
 	}
+	.navbar-toggleable-xs .navbar-brand{
+		float: right;
+		margin-top: -15%;
+		margin-right: -10px;
+	}
 	.location-map iframe{
 		height: 300px;
 	}

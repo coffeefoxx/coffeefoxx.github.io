@@ -331,6 +331,11 @@
 		border-color: #C59D5F;
 		color: #C59D5F;
 	}
+	.navbar-toggleable-xs .navbar-brand{
+		float: right;
+		margin-top: -15%;
+		margin-right: -10px;
+	}
 	.shop .hanoi, .hcm{
 		padding-top:30%;
 	}

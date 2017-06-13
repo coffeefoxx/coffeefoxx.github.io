@@ -377,6 +377,11 @@
 	.btn-outline-secondary{
 		font-size: 12px;
 	}
+	.navbar-toggleable-xs .navbar-brand{
+		float: right;
+		margin-top: -15%;
+		margin-right: -10px;
+	}
 	.mem{
 		background: #e3e2e7 ;
 		padding-top: 20%;
