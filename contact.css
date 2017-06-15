@@ -365,6 +365,9 @@
 	.btn-outline-secondary{
 		font-size: 12px;
 	}
+	.contact .info{
+		padding-top:10%
+	}
 
 }input:focus {
     outline:none;
