@@ -311,6 +311,9 @@
 	.tittle h2{
 		font-size: 10px;
 	}
+	.about{
+		padding-top:20%;
+	}
 	.footer .carousel-indicators{
 	margin-bottom: -3%;
 	}
