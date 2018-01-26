@@ -7,7 +7,7 @@
 	new WOW().init();
  	$(window).scroll(function(event) { // khi cuon chuot thi goi ham 
 // $('body').scrollTop() --> tinh ra vi tri hien tai cua man hinh
- 		 if($('body').scrollTop() > 150) {  // so sanh vi tri hien tai voi welcome
+ 		 if($('html,body').scrollTop() > 150) {  // so sanh vi tri hien tai voi welcome
  		 	$('.navbar-brand.logo img').attr('src', 'images/index/logo.png'); // doi logo
  		  
  		 	 $('.navbar-brand.logo img').addClass('vang'); // them hieu ung 
@@ -25,7 +25,7 @@
  		console.log(layhref);
 
 
- 	  	$('body,html').animate({scrollTop:$(layhref).offset().top});
+ 	  	$('html,body').animate({scrollTop:$(layhref).offset().top});
  	  	return false ; 
  	  
  	 })
